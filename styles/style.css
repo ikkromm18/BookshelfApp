@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sorotan {
+  color: #00eea6;
+}
+.tosca {
+  padding: 4px;
+  height: 25px;
+  background-color: #00eea6;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.red {
+  padding: 4px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+}
+header {
+  height: 50px;
+  background-color: #00bf86;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.search {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#searchSubmit {
+  padding: 1px;
+  height: 22px;
+  background-color: #00eea6;
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: none;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+main section {
+  width: 350px;
+  background-color: rgba(70, 70, 70, 0.5);
+}
+main #inputSection {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section h2 {
+  margin-top: 0.5rem;
+}
+form#tambahBuku {
+  font-size: 10px;
+  width: 250px;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.checkboxSelesaiDibaca {
+  display: flex;
+  margin-top: 1em;
+}
+#btntambah {
+  height: 30px;
+  margin-top: 1em;
+  background-color: #00eea6;
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+main #belumDibaca {
+  padding-bottom: 20px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section #bukuBelumDibaca article {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1rem;
+}
+section #bukuBelumDibaca article p {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+main #selesaiDibaca {
+  min-height: 150px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section #bukuSelesaiDibaca article {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1rem;
+}
+section #bukuSelesaiDibaca article p {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
